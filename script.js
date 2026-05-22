@@ -84,4 +84,5 @@ function limpar() {
     conta = 0
     porcentagem = 0
     pessoas = 0
+    
 }
