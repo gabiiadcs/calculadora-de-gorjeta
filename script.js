@@ -33,5 +33,5 @@ function receberQuantidadePessoas(evento) {
     })
 
     function receberPorcentagem(evento) {
-        console.log(evento.target.value).
+        console.log(evento.target.value)
     }
