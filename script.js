@@ -71,18 +71,18 @@ botaoLimpar.addEventListener("click", limpar)
 function limpar() {
     contaInput.value = ""
 
-    botoesBorgeta.forEach(botao => {
+    botoesGorjeta.forEach(botao => {
         botao.classList.remove("botao-ativo")
     })
 
     gorjetaInput.value = ""
     pessoasInput.value = ""
 
-    document.querySelector(".gorjeta-total > strong").innerHTML = "R$ 0,00"
-    document.querySelector(".valor-total > strong").innerHTML = "R$ 0,00"
+    document.querySelector(".gorjeta-total > strong").innerHTML = "R$ 0.00"
+    document.querySelector(".total > strong").innerHTML = "R$ 0.00"
 
     conta = 0
     porcentagem = 0
     pessoas = 0
-    
+
 }
